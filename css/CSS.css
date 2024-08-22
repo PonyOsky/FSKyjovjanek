@@ -1,0 +1,190 @@
+.bg{
+    background-image: url(Images/bg-pattern.jpg);
+}
+.blue{
+    color: blue;
+}
+.dBlue{
+    color: #050579;
+}
+.white{
+    color: white;
+}
+.bgBlue{
+    background-color: #030352;
+}
+.ftConIcPh{
+    padding: 0 20px 0 15px;
+}
+.ftConIcFb{
+    padding-right: 20px;
+}
+.mainField{
+    background-color: #B9B9B982; margin: 0 5% 2% 5%; padding: 1%; width: auto;
+}
+.mainFieldGallery{
+    background-color: #B9B9B982; margin: 0 5% 2% 5%; padding: 1%; width: auto; box-sizing: border-box;
+}
+.liMod{
+    display:block;text-decoration:none;
+}
+.contHref{
+    text-decoration:none;
+}
+.icons{
+    margin-right: 1%;
+}
+.hrefs{
+    display:inline-block;text-decoration:none;
+}
+.divImg{
+    margin: 3% 0;
+}
+.menu {
+    width: 10%;
+    float: left;
+    padding: 15px;
+}
+.content {
+    width: 90%;
+    float: left;
+    padding: 15px;
+}
+.slozkyImg{
+    width: 100%;
+}
+.block{
+    width: 100%; height:400px; margin: 2% 0 2% 0; display: inline-block;
+}
+.leftT{
+    width: 50%; margin-right: 38%; position: absolute;
+}
+.leftI{
+    width: 38%; margin-right: 50%; position: absolute;
+}
+.rightT{
+    width: 50%; margin-left: 38%; position: absolute;
+}
+.rightI{
+    width: 38%; margin-left: 50%; position: absolute;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media only screen and (max-width: 550px) {
+    .copySt{
+        padding: 3%; text-align: center; width: 100%;
+    }
+    .ftCon{
+        width: 100%; text-align: center;
+    }  
+    .ftConTex{
+        padding-left: 5%; font-size: 150%;
+    }
+}
+@media only screen and (max-width: 624px) {
+    .navText{
+        font-family: 'Brush Script MT', cursive;
+        color: #050579;
+        text-shadow: 0 1px 0 rgb(0 0 0 / 50%);
+        font-size: 30px;
+        width: 50%;
+        text-decoration: none
+    }
+}
+@media only screen and (min-width: 625px) AND (max-width: 991px){
+    .navText{
+        font-family: 'Brush Script MT', cursive;
+        color: #050579;
+        text-shadow: 0 1px 0 rgb(0 0 0 / 50%);
+        font-size: 40px;
+        width: 50%;
+        text-decoration: none
+    }
+}
+@media only screen and (max-width: 850px) {
+.logo{
+    width: 18.5%;
+    margin: 1%;
+}
+.copySt{
+    float: left; padding: 3%; font-size: 110%;
+}
+.ftCon{
+    float: right; padding: 2% 5%;
+}
+.ftConTex{
+    padding-right: 20px; font-size: 150%;
+}
+.actImg{
+    width:100%; margin: 0;
+}
+.block{
+    width: 100%; height:800px; margin: 2% 0 2% 0; display: inline-block;
+}
+.leftT{
+    width: 100%; margin: 0; position: relative;
+}
+.leftI{
+    width: 100%; margin: 0; position: relative;
+}
+.rightT{
+    width: 100%; margin: 0; position: relative;
+}
+.rightI{
+    width: 100%; margin: 0; position: relative;
+}
+}
+@media only screen and (max-width: 991px) {
+    .logo{
+        width: 18.5%;
+        margin: 1%;
+    }
+    .copySt{
+        float: left; padding: 3%; font-size: 110%;
+    }
+    .navigation{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 850px) {
+.logo{
+    width: 110px;
+    margin: 1%;
+}
+.copySt{
+    float: left; padding: 3%; font-size: 110%;
+}
+.ftCon{
+    float: right; padding: 2% 5%;
+}
+.ftConTex{
+    padding-right: 20px; font-size: 150%;
+}
+.program{
+    width: 30%;
+    display: inline-block;
+    border-color: #A09F9F;
+    border-style: none solid none none;
+    border-width: 1px;
+}
+.actuality{
+    display: inline-block;
+}
+.actImg{
+    width:70%; margin: 0 20%;
+}
+
+}
+@media only screen and (min-width: 991px) {
+    .navText{
+        font-family: 'Brush Script MT', cursive;
+        color: #050579;
+        text-shadow: 0 1px 0 rgb(0 0 0 / 50%);
+        font-size: 50px;
+        width: 38%;
+        text-decoration: none
+    }
+}

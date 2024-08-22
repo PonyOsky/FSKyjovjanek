@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>Slovácký Soubor Kyjov</title>
+        <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/CSS.css">
+        <script src="jquery.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="all.min.css">
+        <script type="text/javascript" src="all.min.js"></script>
+    </head>
+<body class="bg">
+    <header style="background-color: #ffff;">
+        <nav class="navbar navbar-expand-lg">
+            <img class="logo" src="Images/logo.jpg" alt="">
+            <h1 class="navText">Slovácký soubor Kyjov</h1>  
+            <button class="navbar-toggler blue" type="button" data-bs-toggle="collapse" data-bs-target="#Burger" style="margin-right: 3%">
+                <span><i class="fa-solid fa-bars blue"></i></span>
+            </button>
+            <div class="navbar-collapse collapse" id="Burger">
+                <ul class="navbar-nav ms-auto navigation">
+                    <li class="nav-item"><a class="nav-link" href="index.php">Domů</a></li>
+                    <li class="nav-item"><a class="nav-link" href="slozky.html">Složky souboru</a></li>
+                    <li class="nav-item"><a class="nav-link" href="historie.html">Historie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="turne.html">Turné</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galerie.php">Galerie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="zvykoslovi.html">Zvykosloví</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="mainField">
+        <h3>Kontakty:</h3>
+        <br>
+        <p>Kontaktní adresa (sídlo spolku, fakturační adresa):</p>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <h6>Slovácký soubor Kyjov, z. s.</h6>
+                <ul>
+                    <li class="liMod"><i class="fa-solid fa-location-dot dBlue icons"></i>Masarykovo náměstí 34, Kyjov 697 01</li>
+                    <li class="liMod"><i class="fa-solid fa-envelope dBlue icons"></i>E-mail: info@slovackysoubor.cz</li>
+                    <li class="liMod"><i class="fa-solid fa-address-card dBlue icons"></i>IČO: 48842907</li>
+                    <li class="liMod"><i class="fa-solid fa-circle dBlue icons"></i>Zapsaný ve spolkovém rejstříku pod sp. zn. L 926 u Krajského soudu v Brně</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+            <h6>Předseda souboru</h6>
+                <ul>
+                    <li class="liMod"><i class="fa-solid fa-user dBlue icons"></i>Milan Macháček</li>
+                    <li class="liMod"><i class="fa-solid fa-phone dBlue icons"></i>tel: +420 606 073 655</li>
+                    <li class="liMod"><i class="fa-solid fa-envelope dBlue icons"></i>E-mail: info@slovackysoubor.cz; milde.machacek@seznam.cz</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h6>Organizační vedoucí souboru:</h6>
+                <ul>
+                    <li class="liMod"><i class="fa-solid fa-user dBlue icons"></i>Mgr. Jakub Švorba</li>
+                    <li class="liMod"><i class="fa-solid fa-phone dBlue icons"></i>tel: +420 777 841 344</li>
+                    <li class="liMod"><i class="fa-solid fa-envelope dBlue icons"></i>E-mail: info@slovackysoubor.cz; j.svorba@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h6>Umělecký vedoucí CM Jury Petrů a mužského sboru:</h6>
+                <ul>
+                    <li class="liMod"><i class="fa-solid fa-user dBlue icons"></i>Jiří Petrů</li>
+                    <li class="liMod"><i class="fa-solid fa-phone dBlue icons"></i>tel: +420 777 841 344</li>
+                    <li class="liMod"><i class="fa-solid fa-envelope dBlue icons"></i>E-mail: jiri@optika-petru.cz</li>
+                </ul>
+            </div>
+        </div>
+        <img class="mx-auto d-block img-fluid divImg" src="Images/title-bg.png" alt="">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Napište nám!</h4>
+                <ul>
+                    <li class="liMod">Na náš <a class="contHref" style="color: 0275FF; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#emailForm">
+                        E-mail
+                      </a>.</li>
+                    <li class="liMod">Na náš <a class="contHref" href="https://www.facebook.com/slovackysoubor/" target="_blank">Facebook</a>.</li>
+                    <li class="liMod">Nebo se pokochejte naším uměním na <a class="contHref" href="https://www.youtube.com/user/slovackysouborkyjov" target="_blank">Youtube</a>.</a></li>
+                </ul>
+            </div>
+<!-- The Modal -->
+<div class="modal fade" id="emailForm">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Napište nám na e-mail:</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="mailer.php" method="post">
+            <div class="mb-3 mt-3">
+                <input type="text" class="form-control" name="name" placeholder="Jméno a přijmení">
+            </div>
+            <div class="mb-3 mt-3">
+                <input type="email" class="form-control" name="email" placeholder="E-mail">
+            </div>
+            <div class="mb-3 mt-3">
+                <textarea class="form-control" rows="10" name="message" placeholder="Zpráva"></textarea>
+            </div>
+            <input type="submit" value="Odeslat" class="btn btn-primary" data-bs-dismiss="modal">
+          </form>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+            <div class="col-md-6">
+                <h4>Pocházíme z města Kyjova:</h4>
+                <iframe style="border:none" src="https://frame.mapy.cz/s/recasuhutu" width="400" height="280" frameborder="0"></iframe>            </div>
+        </div>
+    </main>
+    <footer class="bgBlue">
+        <div class="ftCon">
+            <p class="ftConTex white">Konataktujte nás: </p>
+            <a class="ftConIcPh" href="kontakty.html"><i class="fa-solid fa-envelope white"></i></a>
+            <a class="ftConIcFb" href="https://www.facebook.com/slovackysoubor/" target="_blank"><i class="fa-brands fa-facebook-f white"></i></a>
+            <a href="https://www.youtube.com/user/slovackysouborkyjov" target="_blank"><i class="fa-brands fa-youtube white"></i></a>
+        </div>
+        <div class="copySt white">
+            &copy; Slouvácký soubor Kyjov 2022
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+</body>
+</html>
